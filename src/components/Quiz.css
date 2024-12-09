@@ -1,0 +1,51 @@
+
+
+.container{
+    width: 480px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.options{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.options li {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container button{
+    margin-top: 15px;
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(61, 4, 102);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container p{
+    margin: auto;
+}
+.container .correct{
+    background-color: rgb(206, 243, 206);
+    border: 1px solid rgb(83, 206, 83);
+}
+.container .wrong{
+    background-color: rgb(243, 206, 206);
+    border: 1px solid rgb(202, 123, 123);
+}
